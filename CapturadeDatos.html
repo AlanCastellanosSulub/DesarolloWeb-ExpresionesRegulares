@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Alan Castellanos">
+    <meta name="description" content="Validacion de Datos">
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+    <title>Formulario </title>
+</head>
+<body>
+    <script type="text/javascript" src="Funciones.js"></script>
+    <h1>Captura de datos</h1><br><br>
+    <blockquote> <strong>Reglas para generar datos validos conrrespodientes:</strong> 
+        <br><br>
+        -EL numero de control no estar conformado por mas de 8 numeros y no son
+        validas las letras<br><br>
+
+        -LA curp esta comformada solo 18 numeros y letras y no son validos los 
+        simbolos especiales
+        <br><br>
+
+    </blockquote>
+    <form style="align-content: center; margin-left: 150px;">
+        <br><br>
+        <p>Numero de Control</p>
+        <input id="Texto1" type="text">
+        <br><br>
+        <p>CURP</p>
+        <input id="Texto2" type="text">
+        <br><br>
+        <input type="button"value="Validar" onclick="validacion(this.form);">
+    </form>
+    
+
+    
+</body>
+</html>
